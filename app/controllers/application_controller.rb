@@ -18,7 +18,9 @@ class ApplicationController < Sinatra::Base
 
   post "/signup" do
     #your code here
+    if params[:username] == "" || params[:password] == ""
 
+    end
   end
 
   get '/account' do
